@@ -1,0 +1,17 @@
+<div class="icon-scroll" style="--time:20s">
+                            <div class="scroll-list scroll-inner">
+                                <span>Arduino</span>
+                                <span>Matlab</span>
+                                <span>LabVIEW</span>
+                                <span>SolidWorks</span>
+                                <span>Machining</span>
+                                <span>CSS</span>
+                                <span>HTML</span>
+                                <span>JavaScript</span>
+                                <span>Responsive Design</span>
+                                <span>Excel</span>
+                                <span>Word</span>
+                                <span>PowerPoint</span>
+                            </div>
+                            
+                        </div>
