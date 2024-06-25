@@ -1007,6 +1007,10 @@ section {
     padding-top: 20px;
 }
 
+.modal-projects img {
+    max-height: 220px;
+}
+
 /*----------------contact page-----------------*/
 
 .contact-left h2 {
@@ -1086,9 +1090,35 @@ section {
     padding: 0 10%;
 }
 
+/*.home-image {
+    display: none;  maybe delete 
+}*/
+
+
+
 .home-image {
-    display: none;  /*maybe delete*/ 
+    width: 100px;   /*change size for phone and smaller screen to like 400*/
+    height: 100px;
+    background: #00abf0;
+    border-radius: 50%;
+    background: #031540;
+    border: 20px solid #ffffff;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    outline: 20px solid #031540;  /*maybe delete*/ 
 }
+
+.home-image img {
+    position: relative;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+
+
 
 .home-content {
     text-align: center;
@@ -1096,12 +1126,12 @@ section {
 }
 
 .home-content h1 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.2;
 }
 
 .home-content h3 {
-    font-size: 30px;
+    font-size: 22px;
 }
 
 
@@ -1259,19 +1289,19 @@ section {
 }
 
 .projects-eng {
-    width: 50%;
+    width: 80%;
     height: 25%;
     text-align: center;  
 }
 
 .projects-web {
-    width: 50%;
+    width: 80%;
     height: 25%;
     text-align: center;
 }
 
 .projects-misc {
-    width: 50%;
+    width: 80%;
     height: 25%;
     text-align: center;
 }
@@ -1295,7 +1325,18 @@ section {
     padding-top: 10px;
 }
 
+.projects-inside-bottom button {
+    width: 80%;
+    padding: 5px 10px;
+    background: #031540;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    
+}
 
+.modal-projects img {
+    max-height: 150px;
+}
 
 
 
@@ -1325,6 +1366,18 @@ section {
 
 .contact-left {
     width: 100%;
+}
+
+
+.contact-left a {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.contact-left p {
+    font-size: 16px;
+    padding-left: 10px;
 }
 
 .contact-right {
@@ -1361,7 +1414,7 @@ section {
 }
 
 .contact-form-container textarea {
-    height: 100px;
+    height: 80px;
     padding-top: 15px;
     border-radius: 20px;
 }
@@ -1394,6 +1447,75 @@ section {
 }
 
 
+@media (max-width:600px){
 
 
+/*----------------home page-----------------*/
 
+.home-image {
+    width: 50px;   /*change size for phone and smaller screen to like 400*/
+    height: 50px;
+    background: #00abf0;
+    border-radius: 50%;
+    background: #031540;
+    border: 10px solid #ffffff;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    outline: 10px solid #031540;  /*maybe delete*/ 
+}
+
+.home-image img {
+    position: relative;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+/*----------------about page-----------------*/
+
+.section-name h2 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.first-text h4 {
+    margin-top: 20px;
+}
+
+.first-text p {
+    font-size: 15px;
+    text-align: center;
+}
+
+.about-bottom .second-text {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+/*----------------projects page-----------------*/
+    
+.modal-projects img {
+    max-height: 120px;
+}    
+
+
+/*----------------contact page-----------------*/    
+
+.contact-left h2{
+    padding-top: 20px;
+}
+
+.contact-left a {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.contact-left p {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+}
