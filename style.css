@@ -803,7 +803,18 @@
     font-size: 16px;
 }
 
+
+
+
+
+
+
+
+
 #secret-btn {
+    display: none; /*most important*/
+
+
     color:transparent;
     background-color: transparent;
     border: none;
@@ -813,6 +824,9 @@
 
 
 #secret-btn:hover {
+    display: none;
+
+    
     cursor: pointer;
     font-size: 16px;
     padding-left: 20px;
@@ -824,27 +838,54 @@
 
 
 .modal-content .project-secret {
+    display: none;
+
+    
     text-align: center;
 }
 
 .modal-content .project-secret h2{
+    display: none;
+
+    
     font-size: 50px;
 }
 
 .modal-content .project-secret h4{
+    display: none;
+
+    
     font-size: 30px;
     font-weight: 500;
 }
 
 .modal-content .project-secret p{
+    display: none;
+
+    
     font-size: 20px;
     font-weight: 400;
     padding-bottom: 20px;
 }
 
 .modal-content .project-secret img{
+    display: none;
+
+    
     max-width: 600px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 html {
     scroll-snap-type: y mandatory;
