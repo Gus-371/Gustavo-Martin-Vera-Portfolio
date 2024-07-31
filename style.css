@@ -612,13 +612,13 @@
     background-image: linear-gradient(#00abf0, #00abf0);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: -590px 0;
+    background-position: -730px 0;
     animation: animateText4 5s linear infinite;
 }
 
 @keyframes animateText4 {
     0%,95%,100% {
-        background-position: -590px 0;
+        background-position: -730px 0;
     }
     65%,85% {
         background-position: 0px 0;
